@@ -15,13 +15,27 @@
 php artisan vendor:publish   选择ali支付
 ```
 如果执行成功会在config文件下生成如下三个文件
-![配置文件目录](_v_images/_配置文件目录_1563176977_7928.png)
+```
+ latrell-alipay.php
+ latrell-alipay-mobile.php
+ latrell-alipay-web.php
+```
 
 #####  在文件latrell-alipay-web.php 中设置安全检验码和通知页面
-![配置文件填写](_v_images/_配置文件填写_1563177119_28383.png)
-#####  在文件latrell-alipay.php 中设置合作者id
-![合作者身份id](_v_images/_合作者身份id_1563177222_10424.png)
+```
+ 安全检验码 'key' => ''
+ 服务器异步通知路径 'notify_url' => ''
+ 同步通知页面地址   'return_url' => '' 
+```
 
-## pc扫码支付 效果图
-![pc扫码支付](_v_images/_pc扫码支付_1563177383_566.png)
+#####  在文件latrell-alipay.php 中设置合作者id
+
+```
+partner_id =>  '2088******01'
+```
+
+## 移动端网页支付
+
+
+
 
