@@ -30,7 +30,6 @@ php artisan vendor:publish   选择ali支付
  服务器异步通知路径 'notify_url' => ''
  同步通知页面地址   'return_url' => '' 
 ```
-
 #####  在文件latrell-alipay.php 中设置合作者id
 ![](https://github.com/mpchruirui888/Alipay/raw/master/_v_images/3.png)
 ```
