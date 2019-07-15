@@ -16,6 +16,7 @@ vnote_backup_file_826537664 C:/Users/lrving/Desktop/git/ali/Alipay/README.md
 php artisan vendor:publish   选择ali支付
 ```
 如果执行成功会在config文件下生成如下三个文件
+https://github.com/mpchruirui888/Alipay/raw/master/_v_images/1.png
 ```
  latrell-alipay.php
  latrell-alipay-mobile.php
@@ -23,6 +24,7 @@ php artisan vendor:publish   选择ali支付
 ```
 
 #####  在文件latrell-alipay-web.php 中设置安全检验码和通知页面
+
 ```
  安全检验码 'key' => ''
  服务器异步通知路径 'notify_url' => ''

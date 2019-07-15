@@ -15,6 +15,7 @@
 php artisan vendor:publish   选择ali支付
 ```
 如果执行成功会在config文件下生成如下三个文件
+https://github.com/mpchruirui888/Alipay/raw/master/_v_images/1.png
 ```
  latrell-alipay.php
  latrell-alipay-mobile.php
